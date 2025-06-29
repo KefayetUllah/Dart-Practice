@@ -1,4 +1,10 @@
 void main(){
-  const pi = 3.1416;
-  print("The value of PI is $pi");
+  String num = "42";
+int value = int.parse(num);  // string to int
+double d = double.parse("3.14");
+String str = value.toString();
+ 
+print(value);
+print(d);
+print(str);
 }
