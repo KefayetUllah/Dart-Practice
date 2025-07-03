@@ -1,8 +1,11 @@
-void main() {
-String strvalue = "1";
-print("Type of strvalue is ${strvalue.runtimeType}");   
-int intvalue = int.parse(strvalue);
-print("Value of intvalue is $intvalue");
-// this will print data type
-print("Type of intvalue is ${intvalue.runtimeType}");
+void main(){
+  String str1 = "1";
+
+  int num = int.parse(str1);
+
+  print("The value of str1 is $str1");
+  print("The data type of str1 is ${str1.runtimeType}");
+
+  print("The value of num is $num");
+  print("The data type of num is ${num.runtimeType}");
 }
