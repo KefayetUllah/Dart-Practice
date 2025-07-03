@@ -5,7 +5,7 @@ void main(){
   student['Roll']='Seven';
 
   print(student);
-  print(student['Dept' ]);
+  print(student['Dept']);
 
   
 }

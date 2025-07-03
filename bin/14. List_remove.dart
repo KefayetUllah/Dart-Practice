@@ -1,5 +1,5 @@
 void main(){
-  var numbers = [1, 2, 3,4,5,6];
+  var numbers = [1, 2, 3, 4, 5, 6];
 
   numbers.removeLast();  // remove last index
   numbers.removeAt(2);   //for removing index 2
