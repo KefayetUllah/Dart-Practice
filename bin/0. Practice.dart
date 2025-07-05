@@ -1,15 +1,7 @@
-import 'dart:async';
-
 void main(){
-  String str1 = '''Hey there
-  is there anything wrong
-  to your computer''';
+  String str1 = "I'm going to learn \nDart";
+  String str2 = r"I'm going to learn Dart\n";
 
-  String str2 = """Hey there
-  is there anything wrong
-  to your computer""";
-
-  print("Multi Line Using Single Quotes: $str1\n\n");
-
-  print("Multi Line Using Double Quotes: $str2");
+  print("Regular String: $str1");
+  print("Raw String: $str2");
 }
