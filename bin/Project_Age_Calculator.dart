@@ -1,8 +1,8 @@
-void main() {
-  int birthYear = 2000;
-  int currentYear = DateTime.now().year;
+void main(){
+  int birthday = 2000;
+  int currentyear = DateTime.now().year;
 
-  int age = currentYear - birthYear;
+  int age = currentyear - birthday;
 
-  print("You are $age years old.");
+  print("You are $age years old");
 }
