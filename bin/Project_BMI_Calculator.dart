@@ -1,7 +1,7 @@
 //Project for bmi calculator
 void main() {
   double weightKg = 70;
-  double heightM = 1.75;
+  double heightM = 1.8;
 
   double bmi = weightKg / (heightM * heightM);
 
